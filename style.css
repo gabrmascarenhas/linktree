@@ -19,13 +19,14 @@ body{
     padding-left: 16px;
     padding-right: 16px;
     
+    
 }
 .container{
-    margin-top: 94px;
+    margin-top: 55px;
     justify-content: center;
     width: 383px;
     background-color:hsl(0, 0%, 12%);
-    height: 650px;
+    height: 680px;
     img{
         margin-top: 38px;
         width: 100px;
@@ -33,6 +34,7 @@ body{
         margin-bottom: 30px;
     }
    border-radius: 10px;
+   margin-bottom: 135px;
 }
 h2{
     font-size: 14px;
@@ -52,19 +54,21 @@ h1{
     font-weight:600;
     font-size: 20px;
 }
-button{
-    margin-bottom: 20px;
+.button{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
     background-color:hsl(0, 0%, 20%);
-    height: 45px;
+    height: 50px;
     width: 300px;
     border-radius: 10px;
-    
-}
-
-a{
     text-decoration: none;
+    align-items: center;
+    margin-left: 40px;
+    
+
 }
-button:hover{
+.button:hover{
     background-color: #7e60cc;
     transition: 0.8s;
     
