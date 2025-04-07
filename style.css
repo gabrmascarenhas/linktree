@@ -54,7 +54,7 @@ h1{
     font-weight:600;
     font-size: 20px;
 }
-@media screen and (min-width: 391px) {
+/*@media screen and (min-width: 391px) {*/
 .button{
     display:flex;
     justify-content: center;
@@ -74,25 +74,11 @@ h1{
     transition: 0.8s;
     
 }
-}
+
 @media screen and (max-width: 390px) {
     .button{
-        display:flex;
-        justify-content: center;
-        margin-bottom: 10px;
-        background-color:hsl(0, 0%, 20%);
-        height: 50px;
-        width: 300px;
-        border-radius: 10px;
-        text-decoration: none;
-        align-items: center;
-        margin-left: 27px;
-        
-    
-    }
-    .button:hover{
-        background-color: #7e60cc;
-        transition: 0.8s;
+   
+        margin-left: 28px;
         
     }
-    }
+}
